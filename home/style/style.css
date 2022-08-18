@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+ margin:0;
+ background-color:#2B2C40 ;
+
+}
+.logo{
+    height: 43px;
+    margin-left: 70px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    background-color: #2B2C40;
+    justify-content: space-between;
+    height: 63px;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+
+ul {
+    margin-right:4%; 
+    list-style-type: none;
+}
+li{
+    float: left;
+    padding: 15px 1px 15px 1px;
+    
+
+}
+li a{
+    color: rgb(227, 227, 227);
+    text-align: center;
+    padding: 13px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+li a:hover{
+cursor: pointer;
+opacity:0.8 ;
+transition: 0.5s;
+
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+.banner{
+    width:600px;
+    margin-left: 110px;
+    margin-top: 25px;
+}
+h1{
+    margin-left: 70px;
+    font-size: 40px;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    margin-left:70px;
+    border-radius: 14px;
+    margin-top: 15px;
+    background-color:#FFB803;
+    border: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 63%;
+}
+button:hover{
+    cursor: pointer;
+}
+form{
+    margin-left: 70px;
+    
+    
+}
+input{
+    width: 70%;
+    margin-top: 15px;
+    border-radius: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:0;
+    outline: 0;
+    
+}
+
+.principal span{
+    color: #FFB803;
+}
+.section_apps{
+    display: flex;
+    padding-left:1%;
+    justify-content: space-around;
+    
+    
+}
+.texto_aplicativo{
+    color:rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img_prototipo{
+    display: flex;
+    width: 19%;
+}
+
+.letraamarela{
+    color:#FFB803;
+}
